@@ -1,0 +1,112 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background-color: #072d91;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: #66fbfb;
+    border: 5px solid #072d91;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #049494;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.power-pellet {
+    background-color: #0ef8f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    animation: blinker .6s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.ghost-lair {
+    background-color: #66fbfb;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.empty {
+    background-color: #062474;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,.1);
+}
+
+.pacman {
+    background-color: yellow;
+    border-radius: 7.5px;
+}
+
+h2 {
+    color: red;
+    text-align: right;
+    display: inline;
+    animation: blinkblink 1s linear infinite;
+}
+
+@keyframes blinkblink {
+  50% {
+    opacity: 0;
+  }
+}
+
+h3 {
+    color: white;
+    display: inline;
+}
+
+#score{
+    color: white;
+}
+
+.blinky {
+    background-color: firebrick;
+    border: none;
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+}
+
+.inky {
+    background-color: purple;
+    border: none;
+}
+
+.clyde {
+    background-color: orangered;
+    border: none;
+}
+
+.scared-ghost {
+    background-color: white;
+    border: none;
+}
