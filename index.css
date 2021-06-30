@@ -15,6 +15,7 @@ h1 {
     width: 420px;
     height: 420px;
     border: solid black;
+    margin: 0 auto;
 }
 
 .grid div {
